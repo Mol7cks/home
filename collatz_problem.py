@@ -1,4 +1,4 @@
-def collatz(n):
+def collatz(n) -> int:
   if n == 1:
     return 1
   elif n%2 == 1:
